@@ -1,5 +1,5 @@
 // src/App.js
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const AUTH_HEADER = "ApiKey theConqueror:1e0c800b85fdf2e2ce5348b668f376e1f7c9e721";
 const BASE_URL = "https://clist.by:443/api/v4/contest/?limit=10&upcoming=true&format_time=true";

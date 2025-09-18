@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tilt } from 'react-tilt';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
 import dateFormat from 'dateformat';
@@ -39,7 +38,7 @@ return (
                        <div className='flex mt-3 justify-between'>
                                    
                        <a href={items.url}> <button className="rounded-full h-11 w-11 flex items-center justify-center  text-center bg-gray-100 opacity-70">
-                               <img className="object-cover  rounded-lg " src={plateformImg} alt="image"/>
+                               <img className="object-cover  rounded-lg " src={plateformImg} alt="hero-there"/>
                            
 
                             </button>   </a>

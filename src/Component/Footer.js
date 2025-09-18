@@ -1,9 +1,6 @@
-import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBCol,
-  MDBRow,
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
@@ -76,7 +73,7 @@ const Footer = () => {
 
     <div className='text-center p-3 gradient1 ' style={{ backgroundColor: 'rgba(255,255,255, 0.5)' }}>
       © 2025 Copyright : 
-      <a className='text-white' href=''>
+      <a className='text-white' href='/'>
        Ritik Singh
       </a>
     </div>

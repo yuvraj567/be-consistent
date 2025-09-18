@@ -9,12 +9,13 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const [btn_text, setBtnText] = useState("Send Message");
+  let [btn_text, setBtnText] = useState("Send Message");
   const [loading, setLoading] = useState(false);
   const form = useRef();
 
   async function submitHandler(event) {
     let result;
+    console.log(btn_text)
     event.preventDefault();
     setBtnText("Sending");
     setLoading(true);

@@ -1,4 +1,3 @@
-import React from 'react'
 import {motion} from "framer-motion"
 
 const Hero = () => {
@@ -21,7 +20,7 @@ const Hero = () => {
         </div>
 
         <div className=' md:w-2/4 lg:h-2/4 h-fit'>
-        <img className='' src="hero_photo.png" alt="hero photo" />
+        <img className='' src="hero_photo.png" alt="hero-bhai" />
         </div>
 
         
